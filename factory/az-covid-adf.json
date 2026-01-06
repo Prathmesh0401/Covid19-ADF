@@ -1,0 +1,9 @@
+{
+	"name": "az-covid-adf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "193047e4-3949-473b-90a1-98d539a056d4",
+		"tenantId": "cdc8e9a2-9579-4d10-b6d0-c0af348e0c3c"
+	}
+}

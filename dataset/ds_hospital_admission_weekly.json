@@ -1,0 +1,27 @@
+{
+	"name": "ds_hospital_admission_weekly",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_stacoviddl",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Processed"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "ecdc/Weekly_Hospital_Admissions",
+				"fileSystem": "processed"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
